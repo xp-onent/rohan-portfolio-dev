@@ -6,10 +6,10 @@ import { useGSAP } from '@gsap/react';
 gsap.registerPlugin(ScrollTrigger);
 
 const mediaItems = [
-    { type: 'image', src: '/rohan-image.png' },
-    { type: 'video', src: '/about-vid1.mp4' },
-    { type: 'video', src: '/about-vid2.mp4' },
-    { type: 'video', src: '/about-vid3.mp4' },
+    { type: 'image', src: '/rohan-image.avif' },
+    { type: 'video', src: '/about-vid1.webm' },
+    { type: 'video', src: '/about-vid2.webm' },
+    { type: 'video', src: '/about-vid3.webm' },
 ];
 
 const texts = [

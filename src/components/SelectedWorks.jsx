@@ -39,7 +39,7 @@ const projects = [
         title: "SYNTHESIS",
         client: "OMNICORP",
         role: "MOTION GRAPHICS",
-        video: "/works-vid1.mp4",
+        video: "/works-vid1.webm",
         renderLayout: (p, isActive) => (
             <div className={`w-full h-full flex flex-col-reverse md:flex-row gap-6 md:gap-12 p-6 md:p-12 bg-black/40 border backdrop-blur-md rounded-2xl items-center transition-colors duration-700 overflow-y-auto md:overflow-hidden ${isActive ? 'border-white/20' : 'border-white/5'}`}>
                 <div className="w-full md:w-2/3 flex flex-col space-y-4 md:space-y-8">
@@ -60,7 +60,7 @@ const projects = [
         title: "ECLIPSE",
         client: "STELLAR",
         role: "COMMERCIAL",
-        video: "/works-vid2.mp4",
+        video: "/works-vid2.webm",
         renderLayout: (p, isActive) => (
             <div className={`w-full h-full relative flex items-center justify-center p-6 md:p-12 bg-black/40 border backdrop-blur-md rounded-2xl overflow-hidden transition-colors duration-700 ${isActive ? 'border-white/20' : 'border-white/5'}`}>
                 <div className={`font-mono text-[10px] tracking-[0.3em] absolute top-6 md:top-12 left-6 md:left-12 transition-colors duration-700 ${isActive ? 'text-[#ccff00]' : 'text-white/30'}`}>02 // SHOWREEL</div>
@@ -83,7 +83,7 @@ const projects = [
         title: "TERMINUS",
         client: "PERSONAL",
         role: "DIRECTOR'S CUT",
-        video: "/works-vid3.mp4",
+        video: "/works-vid3.webm",
         renderLayout: (p, isActive) => (
             <div className={`w-full h-full relative rounded-2xl overflow-hidden border transition-colors duration-700 ${isActive ? 'border-white/20' : 'border-white/5'}`}>
                 <ProjectVideo src={p.video} isActive={isActive} className={`absolute inset-0 w-full h-full object-cover transition-all duration-1000 ease-out scale-110 ${isActive ? 'grayscale-0 opacity-80 scale-100' : 'grayscale opacity-20'}`} />

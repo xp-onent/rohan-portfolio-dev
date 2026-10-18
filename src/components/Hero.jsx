@@ -160,9 +160,9 @@ const Hero = () => {
       <EditorHUD />
 
       <div className='video-wrapper absolute flex h-[50vh] md:h-[55vh] w-full justify-center items-center md:gap-6 z-0 transform-3d px-10'>
-        <HeroVideo src='/hero-vid1.mp4' />
-        <HeroVideo src='/hero-vid2.mp4' />
-        <HeroVideo src='/hero-vid3.mp4' />
+        <HeroVideo src='/hero-vid1.webm' />
+        <HeroVideo src='/hero-vid2.webm' />
+        <HeroVideo src='/hero-vid3.webm' />
       </div>
 
       {/* Lifted the text wrapper up slightly to make room for subtitle, and forced no-wrap so it stays inline */}
